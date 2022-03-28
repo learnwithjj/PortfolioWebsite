@@ -1,0 +1,12 @@
+.pl-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 100px;
+}
