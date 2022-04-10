@@ -4,7 +4,6 @@ import './contact.css';
 import {FiPhoneCall} from "react-icons/fi"
 import {GoLocation} from "react-icons/go"
 import {BsMailbox} from "react-icons/bs"
-import {TextInput} from "react-native-web"
 import React from "react";
 import emailjs from "emailjs-com";
 function Contact()
