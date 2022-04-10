@@ -24,9 +24,24 @@
 .i-title-wrapper
 {
   height:100%;
+  -webkit-animation-name: move;
   animation: move 5s ease-in-out infinite alternate;
 }
-
+@-webkit-keyframes move 
+{
+  25%{
+    transform: translateY(-50px);
+  }
+  50%{
+    transform: translateY(-100px);
+  }
+  75%{
+    transform: translateY(-150px);
+  }
+  100%{
+    transform: translateY(-200px);
+  }
+}
 @keyframes move {
   25%{
     transform: translateY(-50px);
@@ -72,3 +87,52 @@
   cursor:pointer;
 }
 
+#icons
+{
+  display: inline-block;
+  -webkit-animation-name: float;
+  animation: float 5s ease-in-out infinite ;
+}
+@-webkit-keyframes float 
+{
+  0%, 20%, 50%, 80%, 100% 
+  {
+    transform:translateY(0);
+  }
+  40%
+  {
+    transform:translateY(-30px);
+  }
+  60%
+  {
+    transform: translateY(-15px);
+  }
+  
+}
+@keyframes float {
+  0%, 20%, 50%, 80%, 100% 
+  {
+    transform:translateY(0);
+  }
+  40%
+  {
+    transform:translateY(-30px);
+  }
+  60%
+  {
+    transform: translateY(-15px);
+  }
+}
+
+  .fainsta
+  {
+    animation-delay: 5s;
+  }
+.falinked
+{
+  animation-delay: 15s;
+}
+.fagithub
+{
+  animation-delay: 30s;
+}

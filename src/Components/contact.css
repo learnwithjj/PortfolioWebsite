@@ -5,3 +5,37 @@
   align-items: center;
   height: 10vh;
 }
+#left
+{
+  float: left;
+}
+
+#icon
+{
+  font-size: 30px;
+  margin:50px 0px 0px 40px ;
+  font-family: serif;
+}
+
+#right
+{
+  margin-right: 70px;
+  float: right;
+  width: 50%;
+}
+
+#input
+{
+  border: 1px solid lightgray;
+  height: 30px;
+}
+.buttonsubmit
+{
+    margin: 45px 60px 50px 50px;
+    padding: 10px 170px 10px 180px;
+    font-size: 18px;
+    background-color:brown;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}

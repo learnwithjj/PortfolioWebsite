@@ -44,9 +44,11 @@ function App() {
        </div>
        <div ><img id="image"  src='guyworking.jpg' alt=''/></div>
        
-       <div style={{fontSize:"30px",marginLeft:"30px"}}><FaInstagram style={{marginLeft:"30px",cursor:"pointer"}} onClick={navigateToInsta}  />
-       <FaLinkedin style={{marginLeft:"15px",cursor:"pointer"}} onClick={navigateToLinkedin}/>
-       <FaGithub style={{marginLeft:"15px",cursor:"pointer"}} onClick={navigateToGit}/></div>
+       <div id="icons" style={{fontSize:"30px",marginLeft:"30px"}}>
+              <FaInstagram className='fainsta'  style={{marginLeft:"30px",cursor:"pointer"}} onClick={navigateToInsta}  />
+            <FaLinkedin className='falinked'  style={{marginLeft:"15px",cursor:"pointer"}} onClick={navigateToLinkedin}/>
+            <FaGithub className='fagithub'  style={{marginLeft:"15px",cursor:"pointer"}} onClick={navigateToGit}/>
+       </div>
        
        </div>
   );

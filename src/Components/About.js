@@ -5,8 +5,10 @@ import{FcAbout} from "react-icons/fc";
 import {GiBrain} from "react-icons/gi";
 import ProductList from "../ProductList/ProductList"
 import Skillslist from "../Skillslist/skillslist"
+
 function About()
 {
+
     return(
         <div  >
             <div className='navbar'><NavBar/> </div>
@@ -18,15 +20,18 @@ function About()
            <p id='aboutpara' style={{color:"orangeRed"}}> I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness. </p> 
            <p id='aboutpara' style={{color:"orangeRed"}}> I am highly organised. I always take notes, and I use a series of tools to help myself stay on top of deadlines.</p> 
 
+           
             <div id='code' style={{marginTop:"100px"}}><GiBrain style={{color:"brown"}}/></div>
             <div className='skills'>
                 Skills
             </div>
             <Skillslist/>
-
-            <div id='code' style={{marginTop:"70px"}}><BsCodeSlash/></div>
+          
+              <div id='mywork'>
+            <div id='code' style={{marginTop:"300px"}}><BsCodeSlash/></div>
             <div className="buildapps">Apps I've built</div>
             <ProductList/>
+            </div>
             
 
         </div>
