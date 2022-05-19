@@ -8,7 +8,7 @@ function Navbar()
         navigate("/"+value);
     }
     return(
-        <div  style={{fontSize:"20px",display:"flex",}}>
+        <div  style={{fontSize:"20px",display:"flex"}}>
                 <div className="insidenav" onClick={()=>aboutclick("")}>HOME </div>
                 <div className="insidenav" onClick={()=>aboutclick("about")}>ABOUT</div>
                 <div className="insidenav" onClick={()=>aboutclick("contact")} >CONTACT</div>

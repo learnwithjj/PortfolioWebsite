@@ -28,7 +28,7 @@ function About()
             <Skillslist/>
           
               <div id='mywork'>
-            <div id='code' style={{marginTop:"300px"}}><BsCodeSlash/></div>
+            <div id='code' style={{marginTop:"100px"}}><BsCodeSlash/></div>
             <div className="buildapps">Apps I've built</div>
             <ProductList/>
             </div>

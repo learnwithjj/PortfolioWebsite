@@ -1,13 +1,11 @@
 import NavBar from './Components/Navbar'
 import './App.css';
-import { faWindowRestore } from "@fortawesome/fontawesome-free-solid"  
 import {FaInstagram,FaLinkedin,FaGithub} from "react-icons/fa"
-import { Link } from 'react-router-dom';
-
 
 
 function App() {
  
+  
   function navigateToInsta()
   {
     window.location.href="https://www.instagram.com/_jenza__/";
@@ -38,7 +36,7 @@ function App() {
       <div id="box">
        <div style={{color:"green"}}>Ready to build your website with ReactJS?</div>
        <div >I'm a FrontEnd developer who focusses on writing clean, elegant and efficient code, </div><div>located in Bangalore, looking for work around the globe.</div>
-       <div style={{marginTop:"30px"}}><div style={{color:"Orangered"}}>Mission:</div> To design solutions that will imporve the quality of millions of people!</div>
+       <div style={{marginTop:"30px"}}><div style={{color:"Orangered"}}>Mission:</div> To design solutions that will improve the quality of millions of people!</div>
        </div>
        <div><button id='cvbutton'><a style={{textDecoration:"none",color:"wheat"}} href='JensJoy.pdf' download="JensJoy.pdf" >Download CV</a></button></div>
        </div>
@@ -50,6 +48,9 @@ function App() {
             <FaGithub className='fagithub'  style={{marginLeft:"15px",cursor:"pointer"}} onClick={navigateToGit}/>
        </div>
        
+   
+
+
        </div>
   );
 }
