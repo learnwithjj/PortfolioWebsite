@@ -6,6 +6,11 @@
   height: 10vh;
 }
 
+#current
+{
+  background-image: linear-gradient(to right,rgb(117, 21, 21),rgb(179, 135, 152));
+}
+
 #left
 {
   float: left;

@@ -5,15 +5,27 @@
   justify-content: center;
   align-items: center;
   height: 10vh;
+  background-color: rgb(241, 246, 250);
+  
 }
 
 .insidenav
 {
-    padding-right: 25px;
+  text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    
+    margin-right: 20px;
     font-family: monospace;
     font-size: 30px;
-    color: grey;
+    color: gray;
     cursor: pointer;
-    
 }
+.active
+{
+  
+  color: black;
+  background-image:linear-gradient(to right,rgb(52, 37, 37),rgb(179, 135, 152));
+
+}
+
 

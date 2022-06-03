@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { NavLink } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import About from "./Components/About";
@@ -11,9 +12,9 @@ ReactDOM.render(
     {/* <App /> */}
 <BrowserRouter>
   <Routes>
-    <Route path='/' element={<App/>}/>
-    <Route path='about' element={<About/>}/>
-    <Route path='contact' element={<Contact/>}/>
+    <Route path='/'   element={<App/>} />
+    <Route path='about'  element={<About/>}/>
+    <Route path='contact'  element={<Contact/>}/>
     
    
   </Routes>
