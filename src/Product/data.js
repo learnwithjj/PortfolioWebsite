@@ -18,4 +18,10 @@ export const products=[
         img2:"ExpenseTrackerpresent.png",
         link:"https://github.com/learnwithjj/Expense-Tracker"
     },
+    {
+        id:4,
+        img1:"tictactoe.png",
+        img2:"tictactoepresent.png",
+        link:"https://github.com/learnwithjj/TicTacToe"
+    }
 ]
