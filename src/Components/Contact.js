@@ -13,7 +13,6 @@ function Contact()
    const form = useRef();
    const sendEmail = (e) => {
       e.preventDefault();
-  
       emailjs.sendForm('service_qyh1vir', 'template_q94inyi', form.current, 'sKiEhBQ9_pMLRPiZG')
         .then((result) => {
             alert(result.text);
@@ -22,7 +21,7 @@ function Contact()
         });
       
       e.target.reset();
-    };
+      };
     return(
         <div>
         <div className='navbar' ><NavBar /> </div>
@@ -49,6 +48,8 @@ function Contact()
                <div  style={{marginLeft:"40px",marginTop:"30px"}}>Message</div>
                <input id='forminput' style={{paddingBottom:"50px"}} name="message"  /> 
                <div><input className='buttonsubmit' type="submit" value="Send" /></div>
+
+               
             </form>
             
             </div>

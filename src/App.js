@@ -1,6 +1,7 @@
 import NavBar from './Components/Navbar'
 import './App.css';
 import {FaInstagram,FaLinkedin,FaGithub} from "react-icons/fa"
+import {FiDownload} from "react-icons/fi";
 
 
 function App() {
@@ -38,7 +39,8 @@ function App() {
        <div >I'm a FrontEnd developer who focusses on writing clean, elegant and efficient code, </div><div>located in Bangalore, looking for work around the globe.</div>
        <div style={{marginTop:"30px"}}><div style={{color:"Orangered"}}>Mission:</div> To design solutions that will improve the quality of millions of people!</div>
        </div>
-       <div><button id='cvbutton'><a style={{textDecoration:"none",color:"wheat"}} href='JensJoy.pdf' download="JensJoy.pdf" >Download CV</a></button></div>
+       <div><button id='cvbutton'><a style={{textDecoration:"none",color:"wheat"}} href='JensJoy.pdf' download="JensJoy.pdf" ><span>Download CV</span></a></button></div>
+       
        </div>
        <div ><img id="image"  src='guyworking.jpg' alt=''/></div>
        

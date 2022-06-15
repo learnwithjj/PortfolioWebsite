@@ -12,9 +12,9 @@ function Navbar()
     return(
         <div  style={{fontSize:"20px",display:"flex"}}>
                 
-                <NavLink activeClassName="active" exact to={"/"}    className="insidenav"><GoHome/></NavLink>
-                <NavLink activeClassName="active"  to={"/about"}  className="insidenav"><SiAboutdotme/></NavLink>
-                <NavLink activeClassName="active"  to={"/contact"}  className="insidenav"><MdOutlinePhoneCallback/></NavLink>
+                <NavLink activeClassName="active" exact to={"/"}    className="insidenav" id="homenav"><GoHome/></NavLink>
+                <NavLink activeClassName="active"  to={"/about"}  className="insidenav" id="aboutnav"><SiAboutdotme/></NavLink>
+                <NavLink activeClassName="active"  to={"/contact"}  className="insidenav" id="contactnav"><MdOutlinePhoneCallback/></NavLink>
         </div>
     );
 }
