@@ -9,6 +9,7 @@
 #left
 {
   float: left;
+  margin-left: 30px;
 }
 
 #icon
@@ -20,9 +21,8 @@
 
 #right
 {
+  margin-top: 40px;
   margin-right: 70px;
-  float: right;
-  width: 50%;
 }
 
 #input
@@ -34,7 +34,7 @@
 {
     width: 350px;
     height: 50px;
-    margin: 45px 60px 50px 20px;
+    margin: 45px 60px 50px 100px;
     padding: 10px 140px 10px 140px;
     font-size: 18px;
     border-radius: 15px;
@@ -52,7 +52,35 @@
 #forminput
 {
   border: 0.5px solid lightgray;
-  padding:15px 150px 15px 20px;
-  margin: 10px 0px 0px 30px;
+  padding:15px 200px 15px 10px;
+  margin: 10px 0px 0px 100px;
 
 }
+
+.dark 
+{
+    background-color: black;
+    color: white;
+}
+.dark #forminput
+{
+  background-color: black;
+  /* background-color: rgb(7, 7, 20); */
+  color: white;
+}
+
+.dark .buttonsubmit
+{
+  background-image: none;
+  background-color: black;
+  border-color: aliceblue;
+  color: white;
+}
+
+.dark .buttonsubmit:hover
+{
+  background-color:rgb(7, 7, 20) ;
+  color: wheat;
+}
+
+

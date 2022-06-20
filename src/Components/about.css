@@ -12,14 +12,7 @@
   background-image: linear-gradient(to right,rgb(117, 21, 21),rgb(179, 135, 152));
 }
 
-#left
-{
-  float: left;
-  width: 40%;
-  margin: 0px 0px 5px 30px;
-  
-  
-}
+
 .aboutme
 {
   display: flex;
@@ -28,6 +21,7 @@
   font-size: 50px;
   color:darkgreen;
   font-family: monospace;
+  margin-bottom: 20px;
 }
 #code
 {
@@ -41,19 +35,20 @@
 }
 #aboutpara
 {
+  color: brown;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 200px 10px 650px ;
+  margin: 10px 200px 10px 850px ;
   font-size: 25px;
   font-family: serif;
 }
-.buildapps
+.builtapps
 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 50px;
   color:darkgreen ;
   font-family: monospace;
@@ -70,3 +65,65 @@
   font-family: monospace;
   
 }
+
+.dark .about 
+{
+  background-color: black;
+}
+
+.dark #aboutpara
+{
+  color: white;
+}
+
+
+#im1
+{
+  position: absolute;
+  /* float: left; */
+  width: 35%;
+  margin: 0px 0px 5px 30px;
+  top: 80px;
+}
+#im2
+{
+  display: none;
+  width: 30%;
+}
+.dark #im1
+{
+  display: none;
+}
+
+.dark #im2
+{
+  /* margin-top: 20px;
+  margin-left: 30px; */
+  display: inline;
+  border-color: black;
+  border-radius: 15px;
+  max-width: 500px;
+  position: absolute;
+  width:45%;
+  margin: 0px 0px 5px 130px;
+}
+
+.dark #aboutpara
+{
+  position:relative;
+  margin-top: 10px;
+}
+
+.dark .aboutme{
+  color: rgb(11, 237, 151);
+}
+.dark  .skills
+{
+  color: rgb(11, 237, 151);
+}
+  .dark .builtapps{
+    color: rgb(11, 237, 151);
+  }
+
+
+  

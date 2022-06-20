@@ -9,3 +9,8 @@
     overflow: hidden;
     margin: 20px 40px 10px 40px ;
 }
+
+.dark .skill{
+ background-color: rgb(2, 2, 15);
+ color: whitesmoke;
+}

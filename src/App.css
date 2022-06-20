@@ -11,10 +11,15 @@
   margin: 20px 0px 0px 50px;
   width: 50%;
 }
-#image
+#name
 {
-  width: 40%;
+  font-size: 60px;
+  color: darkred;
+  font-family: monospace;
+  margin: 0px 20px 0px 20px;
 }
+
+
 .i-title
 {
   height: 50px;
@@ -68,19 +73,26 @@
 
 #box
 {
-  margin-top: 20px;
-  font-size: 30px;
+  margin-top: 5px;
+  font-size: 28px;
   color: darkcyan;
   padding-top: 20px;
   padding-bottom:20px;
 }
-
+#ready
+{
+  color: green;
+}
+#mission
+{
+  color: orangered;
+}
 #cvbutton
 {
-  margin-top:50px;
+  margin-top:5px;
   padding:15px 35px 15px 35px;
   border: 0.1px  ;
-  border-radius: 10px;
+  border-radius: 15px;
   font-size:25px;
   background-color: darkred;
   color: white;
@@ -166,4 +178,65 @@
 .fagithub
 {
   animation-delay: 30s;
+}
+
+
+.dark .app
+{
+  color: white;
+  background-color: black;
+}
+.dark .i-title .i-title-wrapper .i-title-item
+{
+  color: silver;
+}
+.dark #box
+{
+  color: white;
+}
+
+.dark #name
+{
+  color: lightblue;
+}
+
+.dark #ready
+{
+  color: rgb(11, 237, 151);
+}
+
+.dark #mission{
+  color: orange;
+}
+
+.dark #cvbutton
+{
+  background-color: rgb(7, 7, 20);
+  border-color: wheat;
+  
+}
+
+
+#image1
+{
+  width: 40%;
+}
+
+#image2
+{
+  width: 30%;
+ display: none;
+}
+
+.dark #image1
+{
+  display: none;
+}
+.dark #image2
+{
+  margin-top: 20px;
+  margin-left: 30px;
+  display: inline;
+  border-color: black;
+  border-radius: 15px;
 }

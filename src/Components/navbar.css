@@ -52,13 +52,47 @@ padding-bottom: 30px;
 transition: 0.3s;
 font-size: 25px;
 }
-
-
 .active
 {
   color: black;
   background-image:linear-gradient(to right,rgb(52, 37, 37),rgb(179, 135, 152));
 }
 
+.rightdiv
+{
+  position: absolute;
+  right: 0%;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+#darkmodebutton
+{
+  background-color:argb(245, 246, 247);
+  width: 150px;
+  height: 35px;
+  margin-top: 10px;
+  border: 1px solid lightblue;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+.dark .navbar{
+  background-color: rgb(7, 7, 20);
+  color: white;
+}
+.dark .insidenav{
+ 
+  color: white;
+  background-image: none;
+}
+
+.dark #darkmodebutton
+{
+  background-color: rgb(7, 7, 20);
+  color: white;
+  border-color: wheat;
+}
 
 
