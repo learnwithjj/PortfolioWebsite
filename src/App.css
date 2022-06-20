@@ -132,6 +132,7 @@
 
 #icons
 {
+  margin-top: 20px;
   display: inline-block;
   -webkit-animation-name: float;
   animation: float 5s ease-in-out infinite ;
