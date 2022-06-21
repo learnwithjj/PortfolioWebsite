@@ -54,7 +54,7 @@ function Contact()
             </div>
             <div id="right">
             <img id="im1" src='discuss.jpg' alt=''/>
-           <img id="im2" style={{maxWidth:"550px"}} src='three.jpeg'   alt=''/>
+           <img id="im2" style={{maxWidth:"450px"}} src='three.jpeg'   alt=''/>
          </div>
          </div>
     );

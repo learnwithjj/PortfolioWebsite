@@ -241,3 +241,19 @@
   border-color: black;
   border-radius: 15px;
 }
+
+@media screen  {
+
+  #image1
+  {
+    /* width: 50%; */
+    max-width: 500px;
+   
+  }
+  #image2
+  {
+    /* width: 50%; */
+    max-width: 500px;
+  }
+  
+}
