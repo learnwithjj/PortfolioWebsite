@@ -5,6 +5,9 @@
   align-items: center;
   height: 10vh;
 }
+.app{
+  font-size: 20px;
+}
 .left
 {
   float: left;
@@ -256,4 +259,14 @@
     max-width: 500px;
   }
   
+}
+
+@media screen and (max-width: 800px)
+{
+  
+  .app
+  {
+    float: none;
+    font-size: 12px;
+  }
 }

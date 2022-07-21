@@ -95,4 +95,22 @@ font-size: 25px;
   border-color: wheat;
 }
 
-
+@media screen and (max-width: 880px) {
+  .navbar{
+    margin-top: 20px;
+    height: 100%;
+  }
+  .insidenav{
+    width: auto;
+  }
+#darkmodebutton
+{
+ 
+  position: absolute;
+  top:900px;
+  right:100px
+   
+}
+  
+  
+}

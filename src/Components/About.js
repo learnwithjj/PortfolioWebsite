@@ -23,12 +23,12 @@ function About()
            <p id='aboutpara'> I’m not comfortable with settling, and I always look for an opportunity to do better and achieve greatness. </p> 
            <p id='aboutpara' > I am highly organised. I always take notes, and I use a series of tools to help myself stay on top of deadlines.</p> 
           
-           
+           <div className='center'>
             <div id='code' style={{marginTop:"50px"}}><GiBrain style={{color:"brown"}}/></div>
             <div className='skills'>
                 Skills
             </div>
-            <Skillslist/>
+            <Skillslist/></div>
           
               <div id='mywork'>
             <div id='code' style={{marginTop:"30px"}}><BsCodeSlash/></div>
