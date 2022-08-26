@@ -2,7 +2,7 @@ import NavBar from './Components/Navbar'
 import './App.css';
 import {FaInstagram,FaLinkedin,FaGithub} from "react-icons/fa"
 import {FiDownload} from "react-icons/fi";
-
+import { Container } from '@mui/system';
 
 function App() {
  
@@ -51,7 +51,7 @@ function App() {
        </div>
        
    
-
+       
 
        </div>
   );

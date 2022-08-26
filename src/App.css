@@ -7,12 +7,14 @@
 }
 .app{
   font-size: 20px;
+ 
 }
 .left
 {
   float: left;
-  margin: 20px 0px 0px 50px;
+  margin: 20px 0px 0px 150px;
   width: 50%;
+  
 }
 #name
 {
@@ -261,12 +263,3 @@
   
 }
 
-@media screen and (max-width: 800px)
-{
-  
-  .app
-  {
-    float: none;
-    font-size: 12px;
-  }
-}

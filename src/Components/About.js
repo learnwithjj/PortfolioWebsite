@@ -5,7 +5,7 @@ import{FcAbout} from "react-icons/fc";
 import {GiBrain} from "react-icons/gi";
 import ProductList from "../ProductList/ProductList"
 import Skillslist from "../Skillslist/skillslist"
-
+import { Container } from '@mui/system';
 function About()
 {
 
