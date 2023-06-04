@@ -4,6 +4,7 @@
     position: absolute;
     width: 30%;
     margin-top: 20px;
+    margin-right: 25px;
   }
   
   .leftalign {
@@ -11,6 +12,6 @@
     position: absolute;
     width: 80%;
     margin-top: 20px;
-    
+    margin-left: 20px;
   }
   

@@ -62,11 +62,11 @@
 
 .section {
 
-  height: 100vh;
+  height: 85vh;
   opacity: 1;
   display:block;
   flex-direction: row;
-  border-bottom: 15px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 15px solid rgba(103, 102, 102, 0.3);
 }
 .fadebackground {
   background-color: rgba(27, 27, 27, 0.4);
