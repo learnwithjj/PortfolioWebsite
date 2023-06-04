@@ -1,13 +1,12 @@
-.navbar
-{
- display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
-}
+
 .app{
   font-size: 20px;
- 
+  color: white;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  
 }
 .left
 {
@@ -19,9 +18,9 @@
 #name
 {
   font-size: 60px;
-  color: darkred;
   font-family: monospace;
   margin: 0px 20px 0px 20px;
+  color: lightblue;
 }
 
 
@@ -86,23 +85,23 @@
 }
 #ready
 {
-  color: green;
+  color: rgb(11, 237, 151);
 }
-#mission
-{
+#mission{
   color: orangered;
-}
+} 
 #cvbutton
 {
   margin-top:5px;
-  padding:15px 35px 15px 35px;
+  padding:10px 25px 10px 25px;
   border: 0.1px  ;
   border-radius: 15px;
-  font-size:25px;
-  background-color: darkred;
+  font-size:20px;
   color: white;
   cursor:pointer;
   transition-delay: 0.5s;
+  background-color: rgb(7, 7, 20);
+  border-color: wheat;
 }
 
 #cvbutton span {
@@ -187,74 +186,29 @@
 }
 
 
-.dark .app
-{
-  color: white;
-  background-color: black;
-}
-.dark .i-title .i-title-wrapper .i-title-item
+
+.i-title .i-title-wrapper .i-title-item
 {
   color: silver;
 }
-.dark #box
+#box
 {
   color: white;
-}
-
-.dark #name
-{
-  color: lightblue;
-}
-
-.dark #ready
-{
-  color: rgb(11, 237, 151);
-}
-
-.dark #mission{
-  color: orange;
-}
-
-.dark #cvbutton
-{
-  background-color: rgb(7, 7, 20);
-  border-color: wheat;
-  
-}
-
-
-#image1
-{
-  width: 40%;
 }
 
 #image2
 {
   width: 30%;
  display: none;
-}
-
-.dark #image1
-{
-  display: none;
-}
-.dark #image2
-{
-  margin-top: 20px;
-  margin-left: 30px;
-  display: inline;
-  border-color: black;
-  border-radius: 15px;
+ border-color: black;
+ margin-top: 20px;
+ margin-left: 30px;
+ display: inline;
+ border-radius: 15px;
 }
 
 @media screen  {
 
-  #image1
-  {
-    /* width: 50%; */
-    max-width: 500px;
-   
-  }
   #image2
   {
     /* width: 50%; */

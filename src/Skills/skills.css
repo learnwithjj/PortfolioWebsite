@@ -1,16 +1,15 @@
 .skill
 {
-    border: 1px solid lightblue;
-    border-radius: 5px;
-   background-color:lightblue;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 15px;
+   background-color:rgb(4, 80, 105);
     padding: 5px 0px 5px 55px ;
     font-size: 35px;
     width: 25%;
-    overflow: hidden;
+    min-height: 50px;
     margin: 20px 40px 10px 40px ;
+    position: relative;
+    display: inline-block;
+    color: rgb(197, 200, 203);
 }
 
-.dark .skill{
- background-color: rgb(2, 2, 15);
- color: whitesmoke;
-}

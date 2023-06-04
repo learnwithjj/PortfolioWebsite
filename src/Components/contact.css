@@ -1,11 +1,4 @@
-.navbar
-{
- display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
-  
-}
+
 #left
 {
   float: left;
@@ -19,16 +12,17 @@
   font-family: serif;
 }
 
-#right
+.right
 {
-  margin-top: 40px;
-  margin-right: 70px;
+  position:absolute;
+  right: 200px;
 }
 
 #input
 {
   border: 1px solid lightgray;
   height: 30px;
+  border-color: white;
 }
 .buttonsubmit
 {
@@ -41,46 +35,33 @@
     transition: 0.8s;
     color:white;
     cursor: pointer;
-    background-image: linear-gradient(to right,rgb(117, 21, 21),rgb(179, 135, 152));
-}
+    background-image: none;
+  background-color: black;
+  border-color: aliceblue;
+  
+  }
 
 .buttonsubmit:hover
 {
-  background-image: linear-gradient(to right,rgb(34, 80, 15),rgb(152, 192, 189));
-  color: black;
+  
+  background-color:rgb(7, 7, 20) ;
+  color: wheat;
 }
 #forminput
 {
   border: 0.5px solid lightgray;
   padding:15px 200px 15px 10px;
   margin: 10px 0px 0px 100px;
-
-}
-
-.dark 
-{
-    background-color: black;
-    color: white;
-}
-.dark #forminput
-{
   background-color: black;
   /* background-color: rgb(7, 7, 20); */
   color: white;
 }
 
-.dark .buttonsubmit
+.contact
 {
-  background-image: none;
-  background-color: black;
-  border-color: aliceblue;
   color: white;
+  background-color: black;
 }
 
-.dark .buttonsubmit:hover
-{
-  background-color:rgb(7, 7, 20) ;
-  color: wheat;
-}
 
 

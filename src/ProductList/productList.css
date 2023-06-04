@@ -1,13 +1,16 @@
-.pl-list
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 600;
-    flex-wrap:wrap ;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-left: 10px;
-    margin-right: 40px;
-}
+
+.rightalign {
+    right:0px;
+    position: absolute;
+    width: 30%;
+    margin-top: 20px;
+  }
+  
+  .leftalign {
+    left: 40px;
+    position: absolute;
+    width: 80%;
+    margin-top: 20px;
+    
+  }
+  

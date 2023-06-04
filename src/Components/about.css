@@ -1,130 +1,112 @@
 
-.navbar
-{
- display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-#current
+.vertical
 {
-  background-image: linear-gradient(to right,rgb(117, 21, 21),rgb(179, 135, 152));
-}
-
-
-.aboutme
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  color:darkgreen;
-  font-family: monospace;
-  margin-bottom: 20px;
-}
-#code
-{
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  color: grey;
-  
-}
-#aboutpara
-{
-  color: brown;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 200px 10px 850px ;
-  font-size: 25px;
-  font-family: serif;
-}
-.builtapps
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  font-size: 50px;
-  color:darkgreen ;
-  font-family: monospace;
-  
-}
-
-.skills
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  color:darkgreen;
-  font-family: monospace;
-  
-}
-
-.dark .about 
-{
-  background-color: black;
-}
-
-.dark #aboutpara
-{
+  height: 280px;
   color: white;
+  border-left: 5px solid white;
 }
-
-
-#im1
+#leftDiv
 {
+  width: 1%;
+  margin-left: 40%;
+  
+}
+#rightDiv
+{
+  width: 40%;
+}
+.title {
+  width: 50%;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(39, 36, 36);
+  padding: 16px;
+  margin-bottom: 2px;
+  position: relative;
+  transition: color .3s;
+  height: 90px;
+}
+.title:hover {
+  color: #9ea1a4;
+}
+.title::before,
+.title::after {
+  content: "";
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: block;
   position: absolute;
-  /* float: left; */
-  width: 35%;
-  margin: 0px 0px 5px 30px;
-  top: 80px;
+  z-index: -1;
+  transform: scaleX(1);
+  transition: transform .4s;
+  top: 0;
 }
-#im2
-{
-  display: none;
+.title::before {
+  left: 0;
+  transform-origin: top left;
+}
+.title::after {
+  right: 0;
+  transform-origin: top right;
+}
+.title:hover::before,
+.title:hover::after {
+  transform: scaleX(0);
+}
+
+.section {
+
+  height: 100vh;
+  opacity: 1;
+  display:block;
+  flex-direction: row;
+  border-bottom: 15px solid rgba(0, 0, 0, 0.3);
+}
+.fadebackground {
+  background-color: rgba(27, 27, 27, 0.4);
+}
+
+.background{
+  /* background-image: url('https://picsum.photos/id/233/1920/1080?grayscale&blur=4');
+   */
+   background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+
+
+.elementcontainer {
+  width: 60vw;
+  display: flex;
+  position: relative;
+  line-height: 50px;
+  text-align: center;
+}
+
+.rightalign {
+  right:0px;
+  position: absolute;
   width: 30%;
-}
-.dark #im1
-{
-  display: none;
+  margin-top: 20px;
 }
 
-.dark #im2
-{
-  /* margin-top: 20px;
-  margin-left: 30px; */
-  display: inline;
-  border-color: black;
-  border-radius: 15px;
-  max-width:500px;
+.leftalign {
+  left: 40px;
   position: absolute;
-  width:45%;
-  top: 200px;
-  margin: 0px 0px 5px 100px;
+  width: 80%;
+  margin-top: 20px;
 }
-
-.dark #aboutpara
-{
-  position:relative;
-  margin-top: 10px;
-}
-
-.dark .aboutme{
-  color: rgb(11, 237, 151);
-}
-.dark  .skills
-{
-  color: rgb(11, 237, 151);
-}
-  .dark .builtapps{
-    color: rgb(11, 237, 151);
-  }
 
 
   @media screen  {
@@ -136,10 +118,7 @@
       max-width: 400px;
      
     }
-    #im2
-    {
-      
-    }
+ 
    
    
   }
