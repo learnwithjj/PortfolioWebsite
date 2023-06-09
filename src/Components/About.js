@@ -23,7 +23,7 @@ function About()
           
               
             
-            <div id='apps' className='section fadebackground'>
+            <div id='apps' className='section fadebackground' style={{height:"100vh"}}>
                <ProductList/>
                 
             </div>
