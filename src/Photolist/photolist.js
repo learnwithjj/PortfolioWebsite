@@ -90,13 +90,13 @@ function PhotoList()
             alt=""
           />
         </div>
-        <div>
+        {/* <div>
           <img className="normal"
             src={require('./images/DSC_0461.JPG')}
             alt=""
           />
-        </div>
-        <div className="wide">
+        </div> */}
+        {/* <div className="wide">
           <img
             src=""
             alt=""
@@ -167,7 +167,7 @@ function PhotoList()
             src="https://images.unsplash.com/photo-1421930866250-aa0594cea05c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80"
             alt=""
           />
-        </div>
+        </div> */}
         </div>
     );
 }
