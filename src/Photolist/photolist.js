@@ -2,90 +2,91 @@
 import Product from "../Product/Product"
 import "./photolist.css";
 import {products} from "../Product/data";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 function PhotoList()
 {
     return(
         <div className="grid-wrapper ">
         <div>
-          <img className="normal"
+          <LazyLoadImage className="normal"
             src={require('./images/PXL_20230218_131906824.jpg')}
             alt=""
           />
         </div>
         <div>
-          <img className="normal"
+          <LazyLoadImage className="normal"
             src={require('./images/PXL_20230501_104032867.jpg')}
             alt=""
           />
         </div>
         <div className="tall">
-          <img
+          <LazyLoadImage
             src={require('./images/DSC_0074.JPG')}
             alt=""
           />
         </div>
         <div className="wide">
-          <img
+          <LazyLoadImage
             src={require('./images/DSC_0818.JPG')}
             alt=""
           />
         </div>
         <div>
-          <img className="normal"
+          <LazyLoadImage className="normal"
             src={require('./images/DSC_0938-01.jpeg')}
             alt=""
           />
         </div>
         <div className="tall">
-          <img
+          <LazyLoadImage
             src={require('./images/PXL_20230430_135401235.jpg')}
             alt=""
           />
         </div>
         <div className="big">
-          <img
+          <LazyLoadImage
             src={require('./images/PXL_20230430_133435489.jpg')}
             alt=""
           />
         </div>
         <div className="normal">
-          <img
+          <LazyLoadImage
             src={require('./images/DSC_0048.JPG')}
             alt=""
           />
         </div>
         <div className="wide">
-          <img
+          <LazyLoadImage
             src={require('./images/DSC_0916.JPG')}
             alt=""
           />
         </div>
         <div className="big">
-          <img
+          <LazyLoadImage
             src={require('./images/DSC_0014.JPG')}
             alt=""
           />
         </div>
         <div className="tall">
-          <img
+          <LazyLoadImage
             src={require('./images/DSC_0106.JPG')}
             alt=""
           />
         </div>
         <div>
-          <img className="normal"
+          <LazyLoadImage className="normal"
             src={require('./images/DSC_0479.JPG')}
             alt=""
           />
         </div>
         <div>
-          <img className="normal"
+          <LazyLoadImage className="normal"
             src={require('./images/IMG_0324.jpg')}
             alt=""
           />
         </div>
         <div>
-          <img className="normal"
+          <LazyLoadImage className="normal"
             src={require('./images/DSC_0083.JPG')}
             alt=""
           />
